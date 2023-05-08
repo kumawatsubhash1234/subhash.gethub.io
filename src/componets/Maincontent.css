@@ -1,0 +1,41 @@
+
+.maincons{
+    background:url('./images/banner.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 1000px; 
+    display: flex;
+
+
+}
+.box1{
+    /* border: 1px solid green;  */
+    /* background-color: blue; */
+    height: 1000px;
+    width: 40%;
+    /* padding-bottom: 303px; */
+}
+.box2{
+    /* border: 1px solid green; */
+    /* background-color: rgb(104, 104, 240); */
+    height: 1000px;
+    width: 60%;
+    margin-left: 35%;
+}
+.imag{
+    height: 50%;
+    margin-left: 15%    ;
+    margin-top: 150px;
+    width: 80%;
+}
+h1{
+    margin-left: 90px;
+    color: red;
+     margin-top: 80px; 
+}
+h3{
+    margin-left: 90px;
+    color: rgb(18, 17, 19);
+    font-size: 22px;
+    margin-top: 90px;
+}

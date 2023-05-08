@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    background-color: red;
+    /* padding: 10px; */
+    align-items: baseline;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.rightbox{
+     
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        text-decoration: none;
+    
+}
+.rightmaincontainer{
+    float: right;
+    display: flex;
+    margin-left: auto;
+    order: 2;
+}
