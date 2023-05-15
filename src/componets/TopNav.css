@@ -1,23 +1,43 @@
-.navbar{
+.navbar {
     display: flex;
-    background-color: red;
+    /* background-color: red; */
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=330cec&c2=a3b3ff&gt=l&gd=dtl
+*/
+    background:rgba(90, 169, 223, 0.7);
+
+    /* background: linear-gradient(135deg, #330CEC, #A3B3FF); */
     /* padding: 10px; */
     align-items: baseline;
     padding-left: 14px;
     padding-right: 14px;
 }
 
-.rightbox{
-     
-        display: flex;
-        gap: 20px;
-        list-style: none;
-        text-decoration: none;
-    
+.rightbox {
+
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+
 }
-.rightmaincontainer{
+
+.rightmaincontainer {
     float: right;
     display: flex;
     margin-left: auto;
     order: 2;
+    font-size: 23px;
+}
+
+
+.inse {
+    text-decoration: none;
+    padding: 19px
+    
+}
+.inse:hover {
+    color: rgb(24, 38, 238);
+    color: white;
 }

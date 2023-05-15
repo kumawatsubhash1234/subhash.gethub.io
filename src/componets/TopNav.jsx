@@ -1,24 +1,23 @@
 import React from 'react'
 import './TopNav.css';
+import { Link,NavLink } from 'react-router-dom';
 
 export const TopNav = () => {
     return (
-
         <div className='navbar'>
-            <div>
-               
-
-            </div>
+            
+             
+            
+            
             <div className='rightmaincontainer'>
-                <ul className='rightbox'>
-                   <a href='#'>HOME</a>
-                   <a href='#'>CONTACT</a>
-                   <a href='#'>ABOUT</a>
-                   <a href='#'>DES</a>
-                   <a href='https://www.youtube.com/'>YOU Tube</a>
-                </ul>
+                {/* <NavLink> */}
+                    <Link to='/home' className='inse'>Home</Link>
+                    <Link to='/about' className='inse'>About</Link>
+                    <Link to='/Projects' className='inse'>Projects</Link>
+                    <Link to='/Expreinces' className='inse'>Experience</Link>
+                    <Link to='/Contact' className='inse'>Contact</Link>
+                {/* </NavLink> */}
             </div>
-
         </div>
     )
 }

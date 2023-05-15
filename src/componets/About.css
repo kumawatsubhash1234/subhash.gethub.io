@@ -1,0 +1,52 @@
+
+
+.heading{
+    margin-left: 494px;
+    margin-top: -24px;
+    
+}
+.about .box-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 0;
+    width: 581px;
+}
+.about .content {
+    flex: 1 1 55rem;
+}
+.about .content h2 {
+    color: var(green);
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    margin-top: 9px;
+}
+.about .content.p {
+    color: var(grey);
+    font-size: 1.6rem;
+    line-height: 1.6;
+    padding-bottom: 1rem;
+    width: 55%;
+    margin-top: 13px;
+    margin-left: 88px;
+    padding-left: 40px;
+}
+
+.about .content .about-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: flex-start;
+    padding-bottom: 1rem;
+}
+h4 {
+    color: var(green);
+    font-size: 1.6rem;
+}
+p{
+    margin-left:90px;
+}
+

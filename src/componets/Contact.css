@@ -1,0 +1,85 @@
+/* .heading-detalis{
+margin-left: 35%;
+
+}
+
+
+.contact-form{width: 0%;
+margin-left: 40%;
+}
+input#name {
+    width: 258px;
+    font-size: 33px;
+    border-radius: 10px;
+}
+input#ocup_type {
+    width: 258px;
+    font-size: 33px;
+    border-radius: 10px;
+}
+input#org_name {
+    width: 258px;
+    font-size: 33px;
+    border-radius: 10px;
+}
+input#name {
+    width: 258px;
+    font-size: 33px;
+    border-radius: 10px;
+}
+input#name {
+    width: 258px;
+    font-size: 33px;
+    border-radius: 10px;
+} */
+.contact-form {display: flex;
+flex-direction: column;
+padding: 2rem;
+margin: 2rem;
+background-color: #c3e3e9;
+border-radius: 15px;
+}
+.contact-main-container {
+	display: flex;
+justify-content: center;
+text-align: left;
+height: 80vh;
+border-radius: 10px;
+}
+.hhh{
+	margin-left: 28px;
+    color: rgb(12, 12, 12);
+}
+input#name {
+    /* width: 20px; */
+    height: 94px;
+    border-radius: 10px;
+}
+input#ocup_type {
+    /* width: 20px; */
+    height: 94px;
+    border-radius: 10px;
+}
+input#org_name{
+    /* width: 20px; */
+    height: 94px;
+    border-radius: 10px;
+}
+input#Email {
+    /* width: 20px; */
+    height: 94px;
+    border-radius: 10px;
+}
+textarea#message{
+    /* width: 20px; */
+    height: 94px;
+    border-radius: 10px;
+}
+.submit{
+	height: 32px;
+    border-radius: 10px;
+    width: 4rem;
+    margin-top: 25px;
+    cursor: pointer;
+    float: right;
+}
